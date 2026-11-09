@@ -480,4 +480,14 @@ footer p {
         padding: 15px;
     }
 }
-```
+.box {
+    position: relative;
+    border-radius: 15px;
+}
+.featured {
+    position: absolute;
+    top: 0%;
+    right: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
