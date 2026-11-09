@@ -216,15 +216,15 @@ section a:hover {
 }
 
 .nature {
-    background: #dceccb;
+  
     border-left: 8px solid #558b2f;
-    color: #304525;
+   
 }
 
 .heritage-culture {
-    background: #f2d0c2;
+ 
     border-left: 8px solid #b85c38;
-    color: #5d3024;
+
 }
 
 /* PACKAGE HEADINGS */
@@ -489,5 +489,5 @@ footer p {
     top: 0%;
     right: 20px;
     border-radius: 10px;
-    font-size: large;
+    font-size: bold var(--gold);
 }
