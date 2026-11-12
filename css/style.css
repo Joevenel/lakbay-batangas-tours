@@ -17,6 +17,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--cream);
@@ -30,7 +32,16 @@ header {
     color: var(--white);
     text-align: center;
     padding: 30px 20px 20px;
+ 
 }
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to right, #cc603c, #f28b3c);
+}
+
 
 header h1 {
     font-size: 36px;
@@ -41,6 +52,7 @@ header h1 {
 /* NAVIGATION */
 nav {
     margin-top: 20px;
+    
 }
 
 .nav-links {
@@ -184,6 +196,7 @@ section a:hover {
 #tour > h2 {
     text-align: center;
     margin-bottom: 25px;
+  
 }
 
 .beach,
@@ -199,18 +212,19 @@ section a:hover {
     background: #ffe0b2;
     border-left: 8px solid #f57c00;
     color: #5d3425;
+   
 }
 
 .nature {
-    background: #dceccb;
+  
     border-left: 8px solid #558b2f;
-    color: #304525;
+   
 }
 
 .heritage-culture {
-    background: #f2d0c2;
+ 
     border-left: 8px solid #b85c38;
-    color: #5d3024;
+
 }
 
 /* PACKAGE HEADINGS */
@@ -241,6 +255,7 @@ section a:hover {
 
 .beach a {
     background: #e87522;
+
 }
 
 .nature a {
@@ -465,4 +480,14 @@ footer p {
         padding: 15px;
     }
 }
-```
+.box {
+    position: relative;
+    border-radius: 15px;
+}
+.featured {
+    position: absolute;
+    top: 0%;
+    right: 20px;
+    border-radius: 10px;
+    font-size: bold var(--gold);
+}
